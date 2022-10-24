@@ -1,0 +1,16 @@
+body {
+  background-color: #e95c5b;
+
+  color: #e95c5b;
+}
+
+#root {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  border-radius: 26px;
+  background-color: #fdfdfd;
+  box-shadow: 8px 8px 11px #41454a, -8px -8px 11px #bdc9d8;
+}
