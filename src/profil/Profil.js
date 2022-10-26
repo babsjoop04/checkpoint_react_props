@@ -18,7 +18,15 @@ const Profil = ({
                 left: "5%",
                 height: "100%",
                 width: "40%"
-            }}>{children}</div>
+            }}>
+                <img src={children.props.src} alt="profilphoto" style={{
+                    position: "absolute",
+                    top: "5%",
+                    left: "5%",
+                    height: "90%",
+                    width: "90%"
+                }} />
+            </div>
 
 
 
