@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const Profil = ({
     fullName = "Ndeye Fatou DIOUF", bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt omnis nulla! Voluptatem voluptas, mollitia at repellendus voluptates voluptate eum perferendis amet et sunt natus velit ex illo esse optio.Mollitia at repellendus voluptates voluptate eum perferendis amet et sunt natus velit ex illo esse optio. Consectetur adipisicing elit. "
-    , profession = "Etudiante", children, handleName }) => {
+    , profession = "Etudiante", srcProfil, handleName }) => {
 
     return (
         <>
@@ -19,7 +19,7 @@ const Profil = ({
                 height: "100%",
                 width: "40%"
             }}>
-                <img src={children.props.src} alt="profilphoto" style={{
+                <img src={srcProfil} alt="profilphoto" style={{
                     position: "absolute",
                     top: "5%",
                     left: "5%",
