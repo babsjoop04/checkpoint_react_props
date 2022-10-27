@@ -10,7 +10,9 @@ function App() {
   return (
     <>
       {/* ajout composant avec stylisation inline */}
-      <Profil fullName="Kiné Dione" bio="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt omnis nulla! Voluptatem voluptas, mollitia at repellendus voluptates voluptate eum perferendis amet et sunt natus velit ex illo esse optio.Mollitia at repellendus voluptates voluptate eum perferendis amet et sunt natus velit ex illo esse optio. Consectetur adipisicing elit. " srcProfil={"/african-g5552571f8_1280.jpg"} profession="Photographe" handleName={handleName} />
+      <Profil fullName="Kiné Dione" bio="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam incidunt omnis nulla! Voluptatem voluptas, mollitia at repellendus voluptates voluptate eum perferendis amet et sunt natus velit ex illo esse optio.Mollitia at repellendus voluptates voluptate eum perferendis amet et sunt natus velit ex illo esse optio. Consectetur adipisicing elit. " profession="Photographe" handleName={handleName}>{"/african-g5552571f8_1280.jpg"}</Profil>
+
+      {/*  <img src={"/african-g5552571f8_1280.jpg"} alt={"profil"} />*/}
     </>
 
   );
